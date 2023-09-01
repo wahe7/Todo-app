@@ -14,7 +14,7 @@ function additem(value){
     let ul=document.querySelector(".tasklist");
     let li=document.createElement("li");
     li.classList.add("listitem");
-    li.innerHTML= `<input type="checkbox" class="complete"> ${value} <span><button class="up">⬆️</button><button class="down">⬇️</button><button class="delete">Delete</button></span></li>`;
+    li.innerHTML= `<input type="checkbox" class="complete"> ${value} <span><button class="up">⬆</button><button class="down">⬇</button><button class="delete">Delete</button></span></li>`;
     ul.append(li);
 }
 
